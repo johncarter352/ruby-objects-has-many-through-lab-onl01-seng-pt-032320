@@ -21,6 +21,7 @@ class Doctor
   end 
   
   def patients
+    doctor.select{|doctor| doctor.patient}
   end 
   
   
